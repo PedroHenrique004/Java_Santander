@@ -1,0 +1,44 @@
+Criar uma classe que tenha Caracteristicas em comum para as subclasses
+
+obs: essas subclasses herdarão essas Caracteristicas
+
+-------------------- Codigo ------------------------
+
+Classe:
+
+public class ServicoMensagemInstantanea {
+
+    public void enviarMensagem()
+    {
+        validarConexao();
+        sout("Enviando mensaagem");
+        salvarHistoricoMensagem();
+    }
+
+    public void receberMensagem()
+    { 
+        sout("Recebendo mensagem");
+    }
+
+    public void validarConexao()
+    { 
+        sout("Validando conexão com a internet");
+    }
+
+    public void salvarhistorico()
+    { 
+        sout("Salvando o historico da mensagem");
+    }
+}
+
+Subclasse que herda:
+
+public class MSNMessenger extends ServicoMensagemInstantanea{
+
+}
+
+
+MSNMessenger msn = new MSNMessenger();
+msn.enviarMensagem;
+msn.receberMensagem;
+

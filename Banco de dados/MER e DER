@@ -1,0 +1,7 @@
+Modelo ENtidade-Relacionamento(MER) é representado através de diagramas chamados Diagramas Entidade-Relacionamento (DER)
+
+Entidade --> Como se fosse substantivos, como se fossem o objeto principal do diagramas
+
+Atributo --> Cacacteristica e propriedades das entidades, descrevem uma informação especifica sobre a entidades
+
+Relacionamentos --> Relações 

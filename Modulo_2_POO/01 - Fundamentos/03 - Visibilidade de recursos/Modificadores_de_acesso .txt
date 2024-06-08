@@ -1,0 +1,27 @@
+Existem 3 e 1 default:
+
+-------------- Default ---------------
+
+usado com -> void
+
+Organização das classes por pacote, ou seja, só classes do mesmo pacote tem acesso a ela
+
+-------------- Public ----------------
+
+usado com -> Public
+
+Todas as classes de todos os pacotes podem vizualizar aqueles recursos
+
+** VIZUALIZAÇÂO GLOBAL (não é uma boa prática)
+
+-------------- Private ----------------
+
+usado com -> Private
+
+Somente aquela classe pode ver
+
+fases que podemos deixar invisiveuis, ou seja, nem todos precisam ver
+
+-------------- Protected ----------------
+
+

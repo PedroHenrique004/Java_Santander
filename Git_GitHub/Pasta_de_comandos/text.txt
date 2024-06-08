@@ -1,0 +1,31 @@
+-> git checkout -b Nome
+
+Cria uma branch (Os commits feitos nela não alterarão a main)
+
+-> git checkout Nome (Muda a branch)
+
+-> git merge nome 
+
+Faz um merge das branchs
+
+-> git branch -d nome (exclui uma branch)
+
+-> Para remover um init basta remover a pasta .git
+
+-> git restore -> restaura alterações antes do Add
+
+-> Para alterar mensagem do commit:
+
+git commit --amend -m "Nova mensagem" 
+
+-> Manter as mudanças (no working directory):
+
+git reset --soft HEAD~1
+
+Este comando irá desfazer o último commit mas manterá as mudanças no seu diretório de trabalho.
+
+-> Descartar as mudanças:
+
+git reset --hard HEAD~1
+
+Este comando irá desfazer o último commit e descartará todas as mudanças feitas no commit.

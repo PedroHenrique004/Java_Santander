@@ -1,0 +1,1 @@
+Todas as subclasses farão a mesma coisa, por causa da classe pai, mas cada um fará da sua maneira

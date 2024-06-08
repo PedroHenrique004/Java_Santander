@@ -1,0 +1,8 @@
+Tipo de dados 
+
+-> Palavras reservadas para tipos de dados básicos 
+
+Tipos primitivos :
+
+-- int , byte , long , float, double , boolean , char
+-- cada um desses consegue receber uma quantidade de memoria e um limite de capacidade de valor

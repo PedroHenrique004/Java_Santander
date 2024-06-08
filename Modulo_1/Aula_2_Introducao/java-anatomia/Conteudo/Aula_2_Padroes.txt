@@ -1,0 +1,11 @@
+Padrões ->
+
+-- Variavéis escritas com letras minúsculas
+-- Se houver +1 palavra elas estarão juntas e a 2 deve iniciar com letra maiscula (camelCase)
+-- Só os simbolos _ e $
+-- não pode começar com numero
+-- Não pode ser o nome de palavras chave como "Long"
+
+Códigos ->
+
+final -> garante que uma variavel tenha o mesmo valor do inicio ao fim e impede sua mudança

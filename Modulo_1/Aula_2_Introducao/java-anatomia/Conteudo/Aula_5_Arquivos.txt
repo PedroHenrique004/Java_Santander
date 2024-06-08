@@ -1,0 +1,9 @@
+Organização de arquivos
+
+Comercial da empresa HyperTech por exemplo 
+
+com.hyperTech.notification
+
+Estrutura :
+
+Criar pasta por pasta (o .java desta aula está na pasta Bootcamp)

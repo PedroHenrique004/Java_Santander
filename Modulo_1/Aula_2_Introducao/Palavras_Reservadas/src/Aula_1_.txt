@@ -1,0 +1,27 @@
+Palavras reservadas 
+
+Palavras que ja possuem uma finalidade especifica na linguagem
+
+-- Java tem 52 palavras
+-- Todas tem letras minusculas
+-- Tem cores diferentes das outras pela IDE
+
+Tem padrões :
+
+-- Controles de acesso : package, import
+
+-- modificadores de acesso : public , private e protected
+
+-- Primitivos : int, long, void ...
+
+-- Modificadores de classe : abstract, class, extends, final, implements, interface, new, static ...
+
+-- Controles de fluxo : break, case, continue...
+
+Palavras opostas :
+
+Palavras que substituem/ Que tem a mesma função e não podem ser usadas
+
+package / import
+
+

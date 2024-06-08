@@ -1,0 +1,4 @@
+É aquilo de deixar o usuario so ver parte do que acontece (esconder)
+
+A parte logica do codigo fica em PRIVATE 
+

@@ -1,0 +1,84 @@
+Nível avançado de Abstração
+
+Imagine 3 classes com necessidades especificas:
+
+public class Digitalizadora {
+    public void digitalizar(){
+        sout("Digitalizando...")
+    }
+}
+
+public class Copiadora {
+    public void copiar(){
+        sout("Copiando...")
+    }
+}
+
+public class Impressora {
+    public void imprimir(){
+        sout("Imprimindo...")
+    }
+}
+
+
+Agora vou criar um equipamento que atenda as 3 Caracteristicas:
+
+    public class EquipamentoMultifuncional extends Impressora extends Digitalizadora extends Copiadora -> Não pode em Java (Herança multipla)
+
+------------ Então troco essas 3 de classe para interface, e passo esses metodos -------------
+
+public interface Digitalizadora {
+    public void digitalizar();
+}
+
+public interface Copiadora {
+    public void copiar();
+}
+
+public interface Impressora {
+    public void imprimir();
+}
+
+-------------- Crio subclasses que implementatão essas interfaces -----------------
+
+public class impressoraHP extends Impressora{
+
+    public void imprimir(){
+        sout("Imprimindo na impressora HP...")
+    }
+}
+
+-------------- Agora crio o EquipamentoMultifuncional que implementa os metodos passados nas interfaces (usei só o imprimir por tamanho)-------------------
+
+public class EquipamentoMultifuncional implements Impressora, Copiadora, Digitalizadora{
+
+    public void imprimir() {
+        sout ("Imprimindo com a máquina multifuncional")
+    }
+
+    // Aqui teriam os outros metodos da Copiadora e da Digitalizadora
+}
+
+--------------- Posso imnprimir tanto com a HP quanto com o EquipamentoMultifuncional ----------------------
+
+HP -> no console: ("Imprimindo na impressora HP...")
+
+public class Teste {
+    main{
+
+        Impressora impressoraDaHP = new impressoraHP();
+        
+        impressoraDaHP.imprimir()
+    }
+}
+
+EquipamentoMultifuncional -> no console: ("Imprimindo com a máquina multifuncional")
+
+public class Teste {
+    main{
+
+        Impressora impressoraDaHP = new EquipamentoMultifuncional();
+        
+        impressoraDaHP.imprimir()
+    }
+}

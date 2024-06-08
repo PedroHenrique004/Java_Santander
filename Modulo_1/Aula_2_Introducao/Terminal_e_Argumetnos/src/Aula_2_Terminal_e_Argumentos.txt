@@ -1,0 +1,6 @@
+Terminal em argumentos
+
+Nem sempre executamos nosso programa Java pela IDE
+
+Usamos a JVM para criar um executavel do programa e disponibilizar o instalador para qualquer sistema operacional
+

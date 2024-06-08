@@ -1,0 +1,22 @@
+Metodos 
+
+Funções / sub-rotinas disponiveis dentro de nossas classes
+
+Criterios : 
+
+-- Nomeado como verbo
+-- camelCase (tudo minusculo menos a primeria letra da 2 palavra)
+-- Cuidado com a proposta do metodo (calcularImprimir -> errado pois são 2 propostas)
+
+Propostas :
+
+-- Qual a proposta do principal do metodo?
+-- Qual o tipo de retorno esperdado após executar o método? (Se não retornar será representado por "void")
+
+Aspectos : 
+
+-- Quantidade de parametros que ele receberá
+-- O metodo pode possuir exeções
+-- Qual a visibilidade do metodo? (Todo o projeto, apenas no mesmo pacote, herança ou somente na propria classe)
+
+

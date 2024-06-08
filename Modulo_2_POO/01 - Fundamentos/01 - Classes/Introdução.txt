@@ -1,0 +1,59 @@
+Classe("CLASS"):: A estrutura e ou a representação que direciona a criação dos objetos do mesmo tipo
+
+Identificador("IDENTIFY"):: Propósito existencial aos objetos que serão criados
+
+Caracteristicas("STATES"): Também conhecido como "ATRIBUTOS/PROPRIEDADES" é toda a informação que representa o estado do objeto
+
+Comportamentos ("BEHAVIOR"): Também conhecidos como "AÇÕES/MÉTODOS", é toda a parte comportamnental que um objeto dispõe
+
+Instanciar ("NEW"): é o ato de criar um objeto a partir de estrutura definida em uma Classe
+
+--------------- Exemplo ------------------
+
+public class Student { -> Classe
+
+    String name; --> Esses 4 são os STATES
+    int age;
+    Color Color;
+    Sex sex;
+
+    void eating(Food food){ --> Esses 2 são MÉTODOS
+        // codigo aqui
+    }
+
+    void drinking(Eat eat){
+        // codigo aqui
+    }
+} 
+
+public class School {
+
+    main...
+        Student student1 = new Student(); --> Isso é uma instância 
+        student1.name = "John";
+        student1.age = 12;
+        student1.color = Color.FAIR;
+        student1.sex = Sex.MALE;
+}
+
+----------------------- Divisões de nomenclatura -------------------
+
+--------- Atores / Participantes 
+
+Veiculo
+Cliente
+
+-------- Serviços
+
+VeiculoService
+ClienteService
+
+-------- Ferramentas
+
+FormatadorUtil
+Validadorutil
+
+-------- Repositorios
+
+VeiculoRepository
+ClienteRepository

@@ -1,0 +1,7 @@
+Logicos 
+
+tabela verdade
+
+-- && : "E" ambas as condições são verdadeiras
+
+-- || : "Ou" uma das condições ser verdadeira

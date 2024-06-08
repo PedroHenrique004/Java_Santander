@@ -1,0 +1,12 @@
+Operadores 
+
+Atribuição : 
+
+-- = : Valor inicial ou alterar/sobrescrever o valor
+
+Aritmeticos :
+
+-- + | - | * | / | %  : Operações matematicas entre valores numericos
+
+-- o | + | usado em strings, faz uma concatenação
+

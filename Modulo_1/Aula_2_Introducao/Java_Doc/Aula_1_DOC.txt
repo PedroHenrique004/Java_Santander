@@ -1,0 +1,24 @@
+Documentação
+
+Java sempre possuiu uma boa Documentação
+Bons devs são bons em ler documentações
+
+Tags : 
+
+Representam dados relevantes para a compreensão da proposta de um elemento do código
+
+@author -> autor daquela classe
+
+@version -> Versão do recurso 
+
+@since -> Data de inicio / Versão
+
+@param -> Descrição dos parametros dos metodos criados
+
+@return -> Definição do tipo de retorno do metodo
+
+@throws -> Tem exceções?
+
+Java Doc :
+
+javadoc -encoding UTF-* -docencoding ISO-8859-1 -d ../docs src/*.java

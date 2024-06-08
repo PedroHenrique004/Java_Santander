@@ -1,0 +1,11 @@
+O que é um pacote?
+
+Como se fosse um pacote de códigos
+
+Tem algumas Divisões:
+
+Comercial -> com.nome_do_pacote
+
+Governamental -> gov.nome_do_pacote
+
+Código aberto -. org.nome_do_pacote

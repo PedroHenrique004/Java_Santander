@@ -1,0 +1,13 @@
+Declaração de variaveis x metodos
+
+Estrutura de variavel:
+
+Tipo NomeBemDefinido = Atribuição (as vezes opcional)
+
+int idade
+int idade = 19
+
+Estrutura de metodo :
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(opcional)
+

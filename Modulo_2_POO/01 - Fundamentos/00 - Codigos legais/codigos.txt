@@ -1,0 +1,1 @@
+nome_da_variavel.toUpperCase() -> Deixa o texto da variavel maiusculo

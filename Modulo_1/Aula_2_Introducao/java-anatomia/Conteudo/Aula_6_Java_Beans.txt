@@ -1,0 +1,9 @@
+Java Beans
+
+Escrita universal de escrita para as classes, atributos, métodos e etc
+
+Variaveis :
+
+-- Deve ser clara, sem abreviações e com sentido na definição
+-- Singular, exceto se for array
+-- Usar um unico idioma

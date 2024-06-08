@@ -1,0 +1,20 @@
+Escopo / variavel
+
+O ambiente onde uma variavel pode ser acessada
+
+No Java, o escopo de Variaveis vai de acordo com o bloco onde ela foi declarada
+
+Em classes : 
+
+Uma variavel em classe pode ser usado em qualquer metodo
+
+Em metodo :
+
+Uma variavel em metodo so pode ser usada pelo metodo
+
+No exemplo da smartTv
+
+Canal , volume e ligada são a niveis de classe, então toda a classe pode usa-las
+
+novoCanal foi criada em escopo de metodo, por isso so o metodo pode usa-la
+

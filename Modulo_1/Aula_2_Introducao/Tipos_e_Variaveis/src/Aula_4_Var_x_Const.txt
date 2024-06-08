@@ -1,0 +1,8 @@
+Variavel x Constante 
+
+Variavel -> area de memoria, associada a um nome que pode armazenar valores de um determinado tipo.
+
+Constantes -> armazenados na memoria que não podem ser alterados
+
+-- para declarar constantes basta usar o "final" antes da declaração 
+-- Escrita toda em caixa alta e separada por "_"

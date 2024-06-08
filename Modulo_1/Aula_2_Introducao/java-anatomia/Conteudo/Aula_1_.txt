@@ -1,0 +1,8 @@
+1 - Prioridade a língua inglesa
+
+2 - Padrão :
+
+public class MinhaClass {
+
+    // Aqui o código
+}

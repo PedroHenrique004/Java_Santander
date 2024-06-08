@@ -1,0 +1,64 @@
+----------------- Getters -----------------------------------
+
+Retorna valor do atributo especificado
+
+O atributo tem que ser public
+
+----------------- Getters -----------------------------------
+
+define outro valor para o  atributo especificado
+
+O atributo tem que ser public
+
+--------- Exemplo com Java Beans --------------
+
+public class Aluno {
+    private String nome;
+    private int idade;
+
+    public String getNome(){
+        return nome;
+    }
+
+    public String setNome(String newNome){
+        nome =  newNome;
+    }
+
+    public int getIdade(){
+        return idade;
+    }
+
+    public int setIdade(int newIdade){
+        idade = newIdade;
+    }
+}
+
+public class Escola {
+
+    main...
+
+        Aluno felipe = new Aluno(0;)
+        felipe.setNome = "Felipe";
+        felipe.setIdadedade = 8;
+
+        sout("O aluno" + felipe.getNome() + " tem " + felipe.getIdade() + " anos")  ---> O aluno Felipe tem 8 anos (NO CONSOLE) 
+}
+
+
+--------- Exemplo fora do Java Beans ------------
+
+public class Aluno {
+    String nome;
+    int idade
+}
+
+public class Escola {
+
+    main...
+
+        Aluno felipe = new Aluno(0;)
+        felipe.nome = "Felipe";
+        felipe.idade = 8;
+
+        sout("O aluno" + felipe.nome + " tem " + felipe.idade + " anos")  ---> O aluno Felipe tem 8 anos (NO CONSOLE) 
+}

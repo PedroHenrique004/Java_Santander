@@ -1,0 +1,29 @@
+----------- Encapsulamento -------------
+
+Nem tudo precisa ser visivel, grande parte do codigo pode ser distribuido em metodos
+com finalidades especificas que complementa uma açãi em nossa aplicação
+
+--------------- Herança ------------------
+
+Só usar o Extends
+
+Caracteristicas e comportamentos comuns podem ser elevados e compartilhados atraves de uma hierarquia de objetos
+
+Exemplo: Uma carro e uma moto tem placa, acelerar, frear, ano de fabricação
+         para não repetir código, posso criar uma classe Veiculo, com essas Caracteristicas 
+         em comum e fazer com que ela seja herdade por carro e moto
+
+-------------- Abstração ------------------
+
+Só usar o abstract 
+
+É a indisponibilidade para determinar a logica de um ou varios comportamentos em um objeto
+
+exemplo: um veiculo pode frear e acelerar, logo estes comportamentos deverão ser abstratos pois existem mais
+         de uma forma de se realizar a mesma operação
+
+------------- Polimorfismo -----------------
+
+Saõ as inumeras maneiras de se realizar uma mesma tarefa
+
+Exemplo: veiculos podem frear e acelerar, mas se for uma moto, fará de um jeito, se for um carro fará de outro

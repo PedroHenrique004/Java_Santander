@@ -1,0 +1,13 @@
+Unários
+
+Juntos de outro operador, realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numericos e booleanos
+
+-- + : torna o numero positivo (padrão)
+
+-- - : torna o numero negativo
+
+-- ++ : incrementa o valor em 1
+
+-- -- : decrementa o valor em 1
+
+-- ! : Nega o valor de uma expressão ou booleano

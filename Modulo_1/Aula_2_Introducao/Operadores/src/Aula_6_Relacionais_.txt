@@ -1,0 +1,17 @@
+
+Relacionais
+
+Avaliam relações entre duas variaveis ou expressoes
+
+-- == : variavel é igual a outra?
+
+-- != : variavel é diferente da outra?
+
+-- > : variavel é maior que a outra?
+
+-- < : variavel é menor que a outra?
+
+-- >= : variavel é maior ou igual a outra?
+
+-- < : variavel é menor ou igual que a outra?
+

@@ -1,0 +1,81 @@
+--------- como instanciar -------------
+
+Classe novoObjeto = new Classe()
+
+--------- Mas como por valores previos? --------------
+
+public class Pessoa {
+    private String nome;
+    private String cpf;
+    private String endereco;
+
+
+    public String getNome(){
+        return nome;
+    }
+
+    public String getCpf(){
+        return cpf;
+    }
+
+    public String getEndereco(){
+        return endereco;
+    }
+
+    public void String setEndereco(String endereco){
+        this.endereco = endereco;
+    }
+
+    // Aqui não tem os setters de nome e cpf então não teria como acessar esses valores
+}
+
+-------------- Como acessar ----------------
+
+USANDO CONSTRUTORES (Usar aqueles mais fixos, por exemplo cpf, endereço é melhor usa o set mesmo)
+
+Public pessoa (String cpf, String nome){
+    this.cpf = cpf;
+    this.nome = nome;
+}
+
+-- Mesmo nome da Classe
+-- Usado dentro da Classe
+-- atributos com mesmo nome
+
+public class Pessoa {
+    private String nome;
+    private String cpf;
+    private String endereco;
+
+    // Esse construtor permite definir esses valores
+
+    Public pessoa (String cpf, String nome){
+        this.cpf = cpf;
+        this.nome = nome;
+    }
+    
+    public String getNome(){
+        return nome;
+    }
+
+    public String getCpf(){
+        return cpf;
+    }
+
+    public String getEndereco(){
+        return endereco;
+    }
+
+    public void String setEndereco(String endereco){
+        this.endereco = endereco;
+    }
+
+
+}
+
+------------- Agora na instancia dessa classe ----------
+
+// Perceba que elas viraram parametros obrigatorios
+
+Pessoa pedro = new pessoa ("123. "Pedro")
+pedro.setEndereco("Brasília")

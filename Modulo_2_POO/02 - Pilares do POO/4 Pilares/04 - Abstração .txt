@@ -1,0 +1,24 @@
+-------------------- Codigo ------------------------
+
+Classe:
+
+public ABSTRACT class ServicoMensagemInstantanea {
+
+   public abstract void enviarMensagem();
+   public abstract void receberMensagem();  
+}
+
+Subclasse que herda:
+
+public class MSNMessenger extends ServicoMensagemInstantanea{
+ 
+    public void enviarMensagem(){
+        sout("Enviando mensagem pelo MSN")
+    }
+
+    public void receberMensagem(){
+        sout("Recebendo mensagem pelo MSN")
+    }
+}
+
+Por ser abstrato todas as subclasses farão a mesma coisa, mas cada um fará da sua maneira
