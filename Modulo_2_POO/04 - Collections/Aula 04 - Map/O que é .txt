@@ -1,0 +1,27 @@
+--------------- O que é ------------------------
+
+A interface Map é usada para mapear dados no formato chave - valor
+
+Não pode ter chaves duplicadas
+
+--------------- Tipos ------------------
+
+HashMap
+
+TreeMap
+
+LinkedHashMap
+
+---------------- metodos simples ----------------
+
+put -> inserir
+
+get -> obter
+
+containsKey ->  verificar se contem uma chave
+
+containsValue -> verifica se contem um valor
+
+size -> obter tamanho
+
+isempty -> verifica se esta vazio

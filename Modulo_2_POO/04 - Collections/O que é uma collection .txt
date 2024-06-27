@@ -1,0 +1,21 @@
+Repositorio: https://github.com/cami-la/collections-java-api-2023
+
+Uma collection é uma estrutura de dados que serve para agrupar muitos elementos em uma unica unidade, esses elementos tem que ser objetos
+
+Uma collection pode ter coleções homogeneas ou heterogeneas, normalmnente usamos coleções homogeneas
+
+O nucleo das coleções é formado pelas interfaces da figura abaixo, essas interfaces permitem manipular a coleção independente do nível de detalhe que elas representem
+
+---------------- 4 principais coleções ----------------------------
+
+List -> lista
+
+Set -> Conjunto
+
+Queue -> fila 
+
+Map -> mapa
+
+Esse link mostra bem a divisão das 4: https://data-flair.training/blogs/collection-framework-in-java/
+
+Esse link mostra metodos que posso usar nas collections: https://github.com/cami-la/collections-java-api-2023/blob/master/assets/image/collection-framework-methods.png

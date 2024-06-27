@@ -1,0 +1,14 @@
+Uma coleção ordenada (ordem de inserção) que permite a inclusão de elementos duplicados
+
+Mais usados: ArrayList e linkedlist
+
+Parece uma Matriz com tamanho dinamico
+
+fornece metodos para add elementos em posições especificas, remover ou substituir elementos com base no indice 
+
+A classe COLLECTIONS fornece algoritmos uteis para a manipulção:
+
+Ordenação: Sort
+Embaralhamento: shuffle
+Reversão: Reverse
+busca binária: BinarySearch

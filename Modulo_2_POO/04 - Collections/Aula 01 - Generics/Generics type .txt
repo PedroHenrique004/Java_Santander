@@ -1,0 +1,46 @@
+public class Box {
+    private Object object;
+
+    public void set(Object object) {this.object = object;}
+    public Object get() { return object;}
+}
+
+
+--------- Versão generica dessa classe ---------------
+
+-> Aceita qualquer tipo passado no parametro
+
+public class Box<T> {
+    // T representa type (tipo)
+
+    private t t;
+
+    public void set( T t ) {this.t = t;}
+    public T get() { return t;}
+}
+
+---------- parametros utilizados -----------------
+
+E -> Elemento
+
+K - Chave
+
+N - Número
+
+T - Tipo
+
+V - Valor 
+
+S,U,V,etc. - 2o, 3o, 4o tipos
+
+------------- Vantagens ---------------
+
+Segurança de dados -> garante que so objetos daquele tipos especificos podem ser add aql coleção
+
+Codigo legivel
+
+Detecção rapida de erros
+
+Reutilização de codigos
+
+Desempenho melhor

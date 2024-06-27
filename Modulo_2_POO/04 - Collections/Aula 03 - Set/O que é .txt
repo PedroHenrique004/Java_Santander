@@ -1,0 +1,14 @@
+-------------- O que é -------------------
+
+Não pode ter elementos duplicados
+
+Não permite acesso aleatório a um elemento na coleção
+
+Para percorrer um Set usamos o iterador ou um loop forEach
+
+---------------- Tipos ----------------
+
+HashSet -> Ordem aleatoria
+
+TreeSet -> Tem uma ordenação
+

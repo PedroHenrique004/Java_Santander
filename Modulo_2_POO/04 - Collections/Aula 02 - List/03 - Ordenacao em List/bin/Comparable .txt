@@ -1,0 +1,46 @@
+
+----------------------------- Papel do compareTo em Collections.sort -------------------------------
+
+O método Collections.sort é usado para ordenar a lista pessoasPorIdade. Para fazer isso, ele precisa saber como comparar os objetos Pessoa entre si
+e é aí que entra o método compareTo:
+
+Sem o método compareTo: Se a classe Pessoa não implementasse Comparable e não tivesse o método compareTo
+o método Collections.sort não saberia como ordenar os objetos Pessoa e lançaria uma exceção (ClassCastException).
+
+Com o método compareTo: O método compareTo fornece a lógica de comparação, permitindo que Collections.sort 
+saiba como ordenar os objetos Pessoa com base na idade.
+
+------------------- Utilidade do Método compareTo ------------------------
+
+O método compareTo define a ordem natural das instâncias da classe Pessoa. Neste caso, a ordem natural é definida pela idade da pessoa. 
+
+O método compareTo é usado para comparar a idade do objeto atual (this.idade) com a idade do objeto passado como parâmetro (p.getIdade()).
+
+----------------- Função do compareTo no Código ---------------------
+
+Na classe OrdenacaoPessoa, há um método chamado ordenaPorIdade que utiliza o método compareTo:
+
+Copiar código
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class OrdenacaoPessoa {
+    // Atributo 
+    private List<Pessoa> pessoaList;
+
+    public OrdenacaoPessoa(){
+        this.pessoaList = new ArrayList<Pessoa>();
+    }
+
+    public void adicionarPessoa(String nome, int idade, double altura){
+        pessoaList.add(new Pessoa(nome, idade, altura));
+    }
+
+    public List<Pessoa> ordenaPorIdade(){
+        List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList); 
+        Collections.sort(pessoasPorIdade);
+        return pessoasPorIdade;
+    }
+}
+
